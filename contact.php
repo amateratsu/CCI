@@ -95,7 +95,7 @@ include ('views/header.php');
         </section>
     </div>
     <!--end page-content-->
-
+<!--commentaire pour gerome-->
 
     <?php
     include ('views/footer.php');
