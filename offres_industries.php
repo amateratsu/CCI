@@ -1,6 +1,7 @@
 ﻿<?php
 include ('views/header.php');
 
+
 ?>
     <!--end page-header-->
 
@@ -28,9 +29,9 @@ include ('views/header.php');
                                         <div class="description">
 
 
-                                            <h3>Commerce du coin de la rue</h3>
-                                            <h4>location</h4>
-                                            <h4>63 Birch Street</h4>
+                                            <h3><?= $offer->id ?></h3>
+                                            <h4>adresse</h4>
+                                            <h4><?= $offer->city ?></h4>
                                         </div>
                                         <!--end description-->
                                         <div class="image bg-transfer">

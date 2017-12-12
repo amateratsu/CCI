@@ -4,6 +4,7 @@ include ('views/header.php');
 <?php
 // Le fichier index est appelé pour afficher n'importe quelle page
 
+//penis
 // configuration globale
 include 'config.php';
 
