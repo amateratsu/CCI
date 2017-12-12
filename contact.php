@@ -39,9 +39,7 @@ include ('views/header.php');
                                 <br>
                                 <strong>Email</strong>
                                 <figure><a href="#">bourse-immo@vosges.cci.fr </a></figure>
-                                <br>
-                                <strong>Customer Care</strong>
-                                <figure><a href="#">???</a></figure>
+                          
                             </address>
                         </div>
                     </div>

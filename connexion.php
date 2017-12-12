@@ -51,7 +51,7 @@ include ('views/header.php');
                             </div>
                             <!--end form-group-->
                             <div class="form-group center">
-                               <a href="profile.php"><input type="button" name="Modifier"value="Connexion"/></a>
+                               <a href="index.php?page=profile"><input type="button" name="Modifier"value="Connexion"/></a>
 
                             </div>
                             <!--end form-group-->
