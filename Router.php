@@ -36,9 +36,6 @@ class Router
             case 'blog':
                 $blogController->blog();
                 break;
-            case 'reviews':
-                $reviewsController->reviews();
-                break;
             case 'offres_bureaux':
                 $offersController->listOffers();
                 break;
@@ -57,20 +54,11 @@ class Router
             case 'offres_terrains':
                 $offersController->listOffers();
                 break;
-            case 'logcollec':
-                $logController->log();
-                break;
-            case 'logpart':
-                $logController->log();
-                break;
-            case 'logentre':
+            case 'samir':
                 $logController->log();
                 break;
             case 'listentre':
                 $affiliatesController->listAffil();
-                break;
-            case 'register':
-                $logController->log();
                 break;
             case 'profil':
                 $logController->log();
