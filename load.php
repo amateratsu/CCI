@@ -11,3 +11,4 @@ include 'models/AffiliatesModel.php';
 
 // router
 include 'Router.php';
+?>

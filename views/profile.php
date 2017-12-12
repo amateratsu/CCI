@@ -1,6 +1,4 @@
-﻿<?php
-include('views/header.php');
-?>
+﻿
     <!--end page-header-->
 
     <div id="page-content">
@@ -187,11 +185,7 @@ include('views/header.php');
         <!--end gallery-->
     </section>
 
-<?php
-include('views/footer.php');
-?>
-    <!--end page-footer-->
-</div>
+
 <!--end page-wrapper-->
 <a href="#" class="to-top scroll" data-show-after-scroll="600"><i class="arrow_up"></i></a>
 
@@ -207,5 +201,5 @@ include('views/footer.php');
 <script type="text/javascript" src="assets/js/maps.js"></script>
 
 
-</body>
+
 

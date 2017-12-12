@@ -1,6 +1,4 @@
-﻿<?php
-include ('views/header.php');
-?>
+﻿
     <!--end page-header-->
 
     <div id="page-content">
@@ -13,7 +11,7 @@ include ('views/header.php');
             <div class="row">
                 <div class="col-md-9 col-sm-9">
                     <section class="page-title">
-                        <h1>Terrains disponibles</h1>
+                        <h1>Industries disponibles</h1>
                     </section>
                     <!--end section-title-->
 
@@ -27,9 +25,9 @@ include ('views/header.php');
                                         <div class="description">
 
 
-                                            <h3>Commerce du coin de la rue</h3>
-                                            <h4>location</h4>
-                                            <h4>63 Birch Street</h4>
+                                            <h3><?= $offer->id ?></h3>
+                                            <h4>adresse</h4>
+                                            <h4><?= $offer->city ?></h4>
                                         </div>
                                         <!--end description-->
                                         <div class="image bg-transfer">
@@ -38,7 +36,7 @@ include ('views/header.php');
                                         <!--end image-->
                                     </a>
                                     <div class="additional-info">
-                                       price: 33333$
+                                        <?= $offer->price ?>
                                         <!--end controls-more-->
                                     </div>
                                     <!--end additional-info-->
@@ -324,11 +322,7 @@ include ('views/header.php');
 
 
 
- <?php
-include ('views/footer.php');
-?>
-    <!--end page-footer-->
-</div>
+
 <!--end page-wrapper-->
 <a href="#" class="to-top scroll" data-show-after-scroll="600"><i class="arrow_up"></i></a>
 <script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
@@ -349,4 +343,3 @@ include ('views/footer.php');
 <script>
     autoComplete();
 </script>
-</body>

@@ -1,6 +1,4 @@
-﻿<?php
-include ('views/header.php')
-?>
+﻿
     <!--end page-header-->
 
     <div id="page-content">
@@ -11,33 +9,36 @@ include ('views/header.php')
                 <li class="active">Contact</li>
             </ol>
             <!--end breadcrumb-->
-            <section class="page-title center error">
-                <h1>404</h1>
-                <h2>Error</h2>
-                <p>Page cannot be found. But this search form is gonna help you!</p>
-            </section>
-            <!--end page-title-->
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-md-offset-4 col-sm-offset-4">
-                    <form class="form inputs-underline">
-                        <div class="input-group">
-                            <input type="text" class="form-control" name="search_keyword" placeholder="Search keyword">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="submit"><i class="arrow_right"></i></button>
-                                </span>
-                        </div><!-- /input-group -->
-                    </form>
-                    <!--end form-->
+                    <section class="page-title">
+                        <h1>Reset Password</h1>
+                    </section>
+                    <!--end page-title-->
+                    <section>
+                        <form class="form inputs-underline">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your email">
+                            </div>
+                            <!--end form-group-->
+                            <div class="form-group center">
+                                <button type="submit" class="btn btn-primary width-100">Send me new password</button>
+                            </div>
+                            <!--end form-group-->
+                        </form>
+                        <!--end form-->
+                    </section>
                 </div>
+                <!--col-md-4-->
             </div>
+            <!--end ro-->
         </div>
         <!--end container-->
     </div>
     <!--end page-content-->
 
-<?php
-include ('views/footer.php');
-?>
+
 <!--end page-wrapper-->
 <a href="#" class="to-top scroll" data-show-after-scroll="600"><i class="arrow_up"></i></a>
 <script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
@@ -58,4 +59,3 @@ include ('views/footer.php');
 <script>
     autoComplete();
 </script>
-</body>
