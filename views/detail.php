@@ -1,6 +1,4 @@
-﻿<?php
-include ('views/header.php');
-?>
+﻿
     <!--end page-header-->
 
     <div id="page-content">
@@ -115,9 +113,7 @@ include ('views/header.php');
 
 
 <!--end page-wrapper-->
-    <?php
-    include ('views/footer.php');
-    ?>
+
 <!--end page-wrapper-->
 <a href="#" class="to-top scroll" data-show-after-scroll="600"><i class="arrow_up"></i></a>
 <script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
@@ -146,5 +142,5 @@ include ('views/header.php');
     simpleMap(_latitude,_longitude, element);
 </script>
 
-</body>
+
 

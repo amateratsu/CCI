@@ -1,7 +1,4 @@
-﻿<?php
-include ('views/header.php');
-?>
-    <!--end page-header-->
+﻿  <!--end page-header-->
 
     <div id="page-content">
         <div class="container">
@@ -13,11 +10,27 @@ include ('views/header.php');
             <div class="row">
                 <div class="col-md-9 col-sm-9">
                     <section class="page-title">
-                        <h1>Commerces disponibles</h1>
+                        <h1>Liste des offres</h1>
                     </section>
                     <!--end section-title-->
 
+                    <section>
+                        <div class="search-results-controls clearfix">
 
+                            <div class="pull-right">
+                                <div class="input-group inputs-underline min-width-150px">
+                                    <select class="form-control selectpicker" name="sort">
+                                        <option value="">Sort by</option>
+                                        <option value="1">Price</option>
+                                        <option value="2">Distance</option>
+                                        <option value="3">Title</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!--end right-->
+                        </div>
+                        <!--end search-results-controls-->
+                    </section>
 
                     <section>
                         <div class="row">
@@ -311,9 +324,73 @@ include ('views/header.php');
                         <!--end row-->
                     </section>
 
+                    <section>
+                        <div class="center">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination">
+                                    <li class="disabled previous">
+                                        <a href="#" aria-label="Previous">
+                                            <i class="arrow_left"></i>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li class="active"><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li class="next">
+                                        <a href="#" aria-label="Next">
+                                            <i class="arrow_right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </section>
                 </div>
                 <!--end col-md-9-->
 
+                <div class="col-md-3 col-sm-3">
+                    <aside class="sidebar">
+                        <section>
+                            <h2>Search Filter</h2>
+                            <form class="form inputs-underline">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="keyword" placeholder="Enter keyword">
+                                </div>
+                                <!--end form-group-->
+                                <div class="form-group">
+                                    <select class="form-control selectpicker" name="location">
+                                        <option value="">Location</option>
+                                            <option value="1">New York</option>
+                                            <option value="2">Washington</option>
+                                            <option value="3">London</option>
+                                            <option value="4">Paris</option>
+                                    </select>
+                                </div>
+                                <!--end form-group-->
+
+                                <div class="form-group">
+                                    <div class="ui-slider" id="price-slider" data-value-min="100" data-value-max="1000000" data-value-type="price" data-currency="€" data-currency-placement="before">
+                                        <div class="values clearfix">
+                                            <input class="value-min" name="value-min[]" readonly>
+                                            <input class="value-max" name="value-max[]" readonly>
+                                        </div>
+                                        <div class="element"></div>
+                                    </div>
+                                    <!--end price-slider-->
+                                </div>
+                                <!--end form-group-->
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary pull-right">Search Now<i class="fa fa-search"></i></button>
+                                </div>
+                                <!--end form-group-->
+                            </form>
+                        </section>
+
+                    </aside>
+                    <!--end sidebar-->
+                </div>
                 <!--end col-md-4-->
             </div>
             <!--end row-->
@@ -324,11 +401,7 @@ include ('views/header.php');
 
 
 
- <?php
-include ('views/footer.php');
-?>
-    <!--end page-footer-->
-</div>
+
 <!--end page-wrapper-->
 <a href="#" class="to-top scroll" data-show-after-scroll="600"><i class="arrow_up"></i></a>
 <script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
@@ -349,4 +422,3 @@ include ('views/footer.php');
 <script>
     autoComplete();
 </script>
-</body>
