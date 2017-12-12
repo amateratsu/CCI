@@ -15,7 +15,11 @@ class Controller {
         foreach ($this->params as $varName => $value){
             ${$varName} = $value;
         }
-        
+        $viewsFolder = "./views";
+
+        include "$viewsFolder/header.php";
+        include "$viewsFolder/$viewName.php";
+        include "$viewsFolder/footer.php";
 
     }
 }
