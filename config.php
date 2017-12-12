@@ -7,13 +7,10 @@ ini_set('display_errors',1);
 header('Content-Type: text/html; charset=utf-8');
 define('hostServer','127.0.0.1');
 define('DbUser','root');
-<<<<<<< HEAD
-define('DbPassword','simplon');
-define('Database','immocci');
-=======
-define('DbPassword','milka');
-define('Database','immo bourse');
->>>>>>> master
+
+define('DbPassword','A8q8w8z8s8x8--');
+define('Database','CCI');
+
 
 // Connexion mysqli
 $mysqli = mysqli_connect(hostServer, DbUser, DbPassword, Database);
