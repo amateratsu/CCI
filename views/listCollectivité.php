@@ -18,7 +18,7 @@
 
                     <section>
                         <div class="item item-row" data-id="1" data-latitude="48.1787014" data-longitude="6.441549099999975">
-                            <a href="detail.html">
+                            <a href="index.php?page=detail">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/items/1.jpg" alt="">
                                 </div>
@@ -39,7 +39,7 @@
                     
                         <!--end item.row-->
                         <div class="item item-row" data-id="15" data-latitude="48.1787014" data-longitude="6.441549099999975">
-                            <a href="detail.html">
+                            <a href="index.php?page=detail">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/items/3.jpg" alt="">
                                 </div>
@@ -59,7 +59,7 @@
                         </div>
                         <!--end item.row-->
                         <div class="item item-row" data-id="3" data-latitude="48.1787014" data-longitude="6.441549099999975">
-                            <a href="detail.html">
+                            <a href="index.php?page=detail">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/items/4.jpg" alt="">
                                 </div>

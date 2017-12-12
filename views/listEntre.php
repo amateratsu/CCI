@@ -28,7 +28,7 @@
 
                     <section>
                         <div class="item item-row" data-id="1" data-latitude="40.72807182" data-longitude="-73.85735035">
-                            <a href="detail.html">
+                            <a href="index.php?page=detail">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/items/1.jpg" alt="">
                                 </div>
@@ -47,7 +47,7 @@
                         </div>
                         <!--end item.row-->
                         <div class="item item-row" data-id="2" data-latitude="40.73925841" data-longitude="-73.85348797">
-                            <a href="detail.html">
+                            <a href="index.php?page=detail">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/items/2.jpg" alt="">
                                 </div>
@@ -66,7 +66,7 @@
                         </div>
                         <!--end item.row-->
                         <div class="item item-row" data-id="15" data-latitude="40.73659201" data-longitude="-73.80778313">
-                            <a href="detail.html">
+                            <a href="index.php?page=detail">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/items/3.jpg" alt="">
                                 </div>
@@ -85,7 +85,7 @@
                         </div>
                         <!--end item.row-->
                         <div class="item item-row" data-id="3" data-address="Forest Hills, Queens, NY 11375, USA">
-                            <a href="detail.html">
+                            <a href="index.php?page=detail">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/items/4.jpg" alt="">
                                 </div>
@@ -104,7 +104,7 @@
                         </div>
                         <!--end item.row-->
                         <div class="item item-row" data-id="4" data-latitude="40.709016" data-longitude="-73.844969">
-                            <a href="detail.html">
+                            <a href="index.php?page=detail">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/items/5.jpg" alt="">
                                 </div>
@@ -123,7 +123,7 @@
                         </div>
                         <!--end item.row-->
                         <div class="item item-row" data-id="5" data-latitude="40.71447628" data-longitude="-73.8821125">
-                            <a href="detail.html">
+                            <a href="index.php?page=detail">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/items/28.jpg" alt="">
                                 </div>
@@ -141,7 +141,7 @@
                         </div>
                         <!--end item.row-->
                         <div class="item item-row" data-id="5" data-latitude="40.71447628" data-longitude="-73.8821125">
-                            <a href="detail.html">
+                            <a href="index.php?page=detail">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/items/28.jpg" alt="">
                                 </div>
