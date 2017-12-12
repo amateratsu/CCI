@@ -16,7 +16,7 @@
                     <!--end section-title-->
                     <section>
                         <article class="blog-post">
-                            <a href="blog-detail.html"><img src="assets/img/items/20.jpg" alt=""></a>
+                           <img src="assets/img/items/20.jpg" alt=""></a>
                             <header><a href="blog-detail.html"><h2>Foire à la quenouille!!!!</h2></a></header>
                             <figure class="meta">
                                 <a href="#" class="link icon"><i class="fa fa-user"></i>Admin</a>
@@ -26,10 +26,10 @@
                             <p>c'est en ce jour de dévergondage que l'organisme simplon a décidé d'organiser une foire à la quenouille, évênement durant lequel les simploniens se retrouvent autour d'une partie de chabite en chantant "a qu'est ce qu'on est serré".
                                 Le formateur à d'ailleur tenu à ajouter que l'ambiance général était bonne, bien qu'il aurait souhaité que tous le monde soit déguisé en col vert.
                             </p>
-                            <a href="blog-detail.html" class="btn btn-rounded btn-default btn-framed btn-small">Read More</a>
+
                         </article><!-- /.blog-post -->
                         <article class="blog-post">
-                            <header><a href="blog-detail.html"><h2>Du nutella dans les placards?!</h2></a></header>
+                            <header><a href="index.php?page=blog-detail"><h2>Du nutella dans les placards?!</h2></a></header>
                             <figure class="meta">
                                 <a href="#" class="link icon"><i class="fa fa-user"></i>Admin</a>
                                 <a href="#" class="link icon"><i class="fa fa-calendar"></i>06/04/2014</a>
@@ -40,10 +40,10 @@
                                 La secrétaire aurait répondu pour ça défense "je croivait que je pouvais le faire!".
                                 Ainsi, les simploniens comprirent pourquoi ils n'avaient pas d'ordi potables.
                             </p>
-                            <a href="blog-detail.html" class="btn btn-rounded btn-default btn-framed btn-small">Read More</a>
+
                         </article><!-- /.blog-post -->
                         <article class="blog-post">
-                            <header><a href="blog-detail.html"><h2><strong>Nouvelle offre mise en ligne</strong></h2></a></header>
+                            <header><a href="index.php?page=blog-detail"><h2><strong>Nouvelle offre mise en ligne</strong></h2></a></header>
                             <figure class="meta">
                                 <a href="#" class="link icon"><i class="fa fa-user"></i>Admin</a>
                                 <a href="#" class="link icon"><i class="fa fa-calendar"></i>06/04/2014</a>
@@ -51,10 +51,10 @@
                             </figure>
                             <p>immeuble, bon état.
                             </p>
-                            <a href="blog-detail.html" class="link-arrow">Read More</a>
+
                         </article><!-- /.blog-post -->
                         <article class="blog-post">
-                            <header><a href="blog-detail.html"><h2><strong>immeuble 2</strong></h2></a></header>
+                            <header><h2><strong>immeuble 2</strong></h2></header>
                             <figure class="meta">
                                 <a href="#" class="link icon"><i class="fa fa-user"></i>Admin</a>
                                 <a href="#" class="link icon"><i class="fa fa-calendar"></i>06/04/2014</a>
@@ -62,7 +62,7 @@
                             </figure>
                             <p>Je vend aussi un immeuble.
                             </p>
-                            <a href="blog-detail.html" class="btn btn-rounded btn-default btn-framed btn-small">Read More</a>
+                          
                         </article><!-- /.blog-post -->
                     </section>
 

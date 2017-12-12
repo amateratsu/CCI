@@ -21,7 +21,7 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="1">
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
 
@@ -46,7 +46,7 @@
                             <!--<end col-md-3-->
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="2">
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
                                             <h3>Ironapple</h3>
@@ -71,7 +71,7 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="15">
 
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
 
@@ -97,7 +97,7 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="3">
 
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
 
@@ -121,7 +121,7 @@
                             <!--<end col-md-4-->
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="4">
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
                                             <h3>Cosmopolit</h3>
@@ -144,7 +144,7 @@
                             <!--<end col-md-3-->
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="6">
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
                                             <h3>Stand Up Show</h3>
@@ -168,7 +168,7 @@
 
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="5">
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
                                             <h3>Beautiful Luxury Villa</h3>
@@ -191,7 +191,7 @@
                             <!--<end col-md-3-->
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="6">
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
                                             <h3>Stand Up Show</h3>
@@ -214,7 +214,7 @@
                             <!--<end col-md-3-->
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="7">
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
                                             <h3>University Day</h3>
@@ -237,7 +237,7 @@
                             <!--<end col-md-3-->
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="9">
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
                                             <h3>High Mountain Trip</h3>
@@ -260,7 +260,7 @@
                             <!--<end col-md-4-->
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="10">
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
                                             <h3>Hyundai i30</h3>
@@ -283,7 +283,7 @@
                             <!--<end col-md-3-->
                             <div class="col-md-4 col-sm-4">
                                 <div class="item" data-id="11">
-                                    <a href="detail.html">
+                                    <a href="index.php?page=detail">
                                         <div class="description">
 
                                             <h3>Thai Massage</h3>
